@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="OracleFileExtractor.jnlp">
+  <information>
+    <title>OracleFileExtractor</title>
+    <vendor>com.codeonblue</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="OracleFileExtractor.jar" size="31182" download="eager" />
+    <jar href="libs/javafx-dialogs-0.0.4.jar" size="118239" download="eager" />
+    <jar href="libs/junit.jar" size="245039" download="eager" />
+    <jar href="libs/ojdbc6.jar" size="2152137" download="eager" />
+    <jar href="libs/ojdbc6_g.jar" size="3872515" download="eager" />
+    <jar href="libs/org.hamcrest.core_1.3.0.v201303031735.jar" size="55802" download="eager" />
+  </resources>
+  <applet-desc  width="0" height="0" main-class="com.javafx.main.NoJavaFXFallback"  name="Oracle File Extractor" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="0" height="0" main-class="com.codeonblue.tools.ofx.MainApp"  name="Oracle File Extractor" />
+  <update check="background"/>
+</jnlp>
